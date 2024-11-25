@@ -24,11 +24,6 @@ import geopandas as gpd
 import matplotlib.pyplot as plt
 from shapely.geometry import LineString,Point
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDvDoaTUaCQpRYyEE-wGsyeEi3vaVO8xUo"
-os.environ["AZURE_OPENAI_API_KEY"] = "7352797d58f7477da23feb9756377789"
-os.environ["AZURE_OPENAI_ENDPOINT"] = "https://songyulinopenai.openai.azure.com/"
-
-
 def min_max_range(x, range_values):
     return [round( ((xx - min(x)) / (1.0*(max(x) - min(x)))) * (range_values[1] - range_values[0]) + range_values[0], 2) for xx in x]
 
