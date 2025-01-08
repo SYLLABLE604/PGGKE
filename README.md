@@ -1,7 +1,7 @@
 # PGGKE
 
 The code and dataset are available, the demo is available at http://home.yulinsong.fun/
-When you open the website, you can see the example on the screen, you can try the modifying method
+When you open the website, you can see the example on the screen, you can try the modifying method. (VPN is required from request from mainland China)
 
 ![image](https://github.com/user-attachments/assets/730bfede-cdfd-4a29-85c1-b976a9e4afa4)
 
